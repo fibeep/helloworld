@@ -25,7 +25,7 @@ def multiply(number1, number2):
     test2 = number2.isdigit()
     if (test1 == True) and (test2 == True):
         total = int(number1) * int(number2)
-        return f'{number1} times {number2} is {total}'
+        return f'{number1} times {number2} is {total}.'
     else: 
         return f'Invalid inputs, please try again by entering 2 numbers!'
 
